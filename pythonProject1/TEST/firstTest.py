@@ -23,7 +23,7 @@ print("Vous êtes connecté au de : "+ nom)
 time.sleep(3)
 driver.find_element(By.XPATH, "/html//div[@id='app']/div[@class='SearchHomePage withToaster']/div[2]//div[@class='Lp1YC']").click()
 
-
+driver.find_element(By.XPATH, "//div[contains(text(),'Mes lieux favoris')]").click()
 """
 driver.find_element(By.ID, "SearchInputundefined").send_keys("Lens")
 """
