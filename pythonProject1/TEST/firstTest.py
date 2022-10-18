@@ -27,5 +27,6 @@ driver.find_element(By.XPATH, "//div[contains(text(),'Mes lieux favoris')]").cli
 """
 driver.find_element(By.ID, "SearchInputundefined").send_keys("Lens")
 """
-
+print("Coucou, ça en est où ?")
+print ("git essais")
 driver.close()
